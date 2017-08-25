@@ -5,10 +5,8 @@ public class BasicIORunner
 
 	public static void main(String[] args)
 	{
-		// TODO Auto-generated method stub
-		BasicIOController myGreeting = new BasicIOController();
-		myGreeting.printGreeting();		
-		
+		BasicIOController myGreeting = new BasicIOController("Alex", "McJunk");
+		myGreeting.printGreeting();
 	}
 
 }
